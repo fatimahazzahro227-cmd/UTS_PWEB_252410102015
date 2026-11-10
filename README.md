@@ -8,11 +8,7 @@ Website toko furnitur kayu sederhana yang dibuat dengan Laravel (pola MVC dan Bl
 
 ## Fitur
 
-- Login dengan username, lalu diteruskan ke Dashboard dan Profil lewat request parameter
-- Dashboard berisi koleksi produk dan popup detail produk
-- Halaman Pengelolaan menampilkan daftar produk dalam tabel beserta status stok
-- Halaman Profil
-- Tampilan responsif, dengan menu hamburger di layar kecil
+Modern Wood dirancang untuk memberikan tampilan sederhana dalam mengelola informasi koleksi furnitur. Admin dapat masuk melalui halaman login, melihat koleksi produk pada Dashboard, memeriksa daftar produk dan status stok pada halaman Pengelolaan, serta melihat informasi akun melalui halaman Profil. Setiap halaman dibuat dengan tampilan yang menyesuaikan ukuran layar, sehingga website tetap nyaman digunakan melalui laptop maupun perangkat mobile.
 
 ## Teknologi
 
@@ -49,9 +45,10 @@ Koleksi produk:
 
 ## Cara Menjalankan
 
+```bash
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan serve
-
+```
 Lalu buka http://localhost:8000
