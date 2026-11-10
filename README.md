@@ -2,9 +2,9 @@
 
 Website toko furnitur kayu sederhana yang dibuat dengan Laravel (pola MVC dan Blade templating) untuk UTS Pemrograman Web 2026. Tidak memakai database, semua data produk dikirim dari controller berupa array.
 
-Nama: Fatimah Azzahro
-NIM: 252410102015
-Program Studi:Teknologi Informasi
+- Nama: Fatimah Azzahro
+- NIM: 252410102015
+- Program Studi:Teknologi Informasi
 
 ## Fitur
 
@@ -49,11 +49,9 @@ Koleksi produk:
 
 ## Cara Menjalankan
 
-```bash
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan serve
-```
 
 Lalu buka http://localhost:8000
